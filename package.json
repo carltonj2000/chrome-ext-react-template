@@ -1,0 +1,15 @@
+{
+  "name": "chrome-ext-react-template",
+  "version": "1.0.0",
+  "description": "Chrome Extension With Reach Template",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Carlton Joseph",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
