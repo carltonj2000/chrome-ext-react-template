@@ -16,7 +16,7 @@ module.exports = {
     popup: "./src/popup.js",
   },
   plugins: [
-    new webpack.ProgressPlugin(),
+    new webpack.ProgressPlugin({ percentBy: "entries" }),
     new CleanWebpackPlugin(),
     new CopyPlugin({
       patterns: [{ from: "static" }],
@@ -32,4 +32,22 @@ module.exports = {
       filename: `options.html`,
     }),
   ],
+  resolve: {
+    extensions: [".jsx", ".js", ".json"],
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+        },
+      },
+    ],
+  },
 };

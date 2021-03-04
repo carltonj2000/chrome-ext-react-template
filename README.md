@@ -33,12 +33,17 @@ npm i -D \
    html-webpack-plugin
 ```
 
+`npm run build` create a minimum chrome extension in `dist` which just
+has console logs for commit d46edd8ceb09fad7a0607b6ccbe0e63133d72064
+
 ```bash
 npm i -D \
    @babel/core \
-   @babel/plugin-proposal-class-properties \
    @babel/preset-env \
    @babel/preset-react \
    babel-loader \
-   css-loader
+   css-loader \
+   style-loader
+
+npm install react react-dom
 ```

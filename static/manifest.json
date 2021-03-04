@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Text 2 Speech",
-  "description": "Speaks the selected text, using speech synthesis from chrome",
+  "description": "Speaks the selected text using chrome's speech synthesis.",
   "version": "0.1.0",
 
   "icons": {
