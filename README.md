@@ -45,5 +45,16 @@ npm i -D \
    css-loader \
    style-loader
 
-npm install react react-dom
+npm i react react-dom
 ```
+
+Add minimal react code, setup and dependencies in
+commit aa1ce4c070a82fbb19d99ff4872582578b6edcbf
+
+```bash
+npm i -D @types/chrome
+```
+
+Add communication example from popup to contentScript and background script.
+To help with development added chrome types and watch build script.
+commit tbd (but one after the above)

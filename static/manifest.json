@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Text 2 Speech",
-  "description": "Speaks the selected text using chrome's speech synthesis.",
+  "name": "Sample Extension",
+  "description": "Provides communication from the popup to the background and contentScript",
   "version": "0.1.0",
 
   "icons": {

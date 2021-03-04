@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Chrome Extension With Reach Template",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "build:watch": "webpack --watch"
   },
   "author": "Carlton Joseph",
   "license": "MIT",
@@ -11,6 +12,7 @@
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
     "@babel/preset-react": "^7.12.13",
+    "@types/chrome": "^0.0.133",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^7.0.0",
