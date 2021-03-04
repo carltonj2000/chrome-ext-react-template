@@ -24,6 +24,15 @@ npm i -D \
    webpack-dev-server
 ```
 
+`npm run build` works for commit 8d98cfb64656553005bcc919e658a06f8e705b4e
+
+```bash
+npm i -D \
+   copy-webpack-plugin \
+   clean-webpack-plugin \
+   html-webpack-plugin
+```
+
 ```bash
 npm i -D \
    @babel/core \
@@ -31,8 +40,5 @@ npm i -D \
    @babel/preset-env \
    @babel/preset-react \
    babel-loader \
-   copy-webpack-plugin \
-   clean-webpack-plugin \
-   css-loader \
-   html-webpack-plugin
+   css-loader
 ```

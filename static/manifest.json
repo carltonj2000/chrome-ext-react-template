@@ -23,12 +23,13 @@
       "js": ["contentScript.js"]
     }
   ],
-
   "browser_action": {
-    "default_popup": "index.html",
+    "default_popup": "popup.html",
     "default_title": "Open the popup"
   },
 
-  "content_security_policy": "script-src 'self' http://localhost:8081 'unsafe-eval'; object-src 'self'",
+  "options_page": "options.html",
+
+  "content_security_policy": "script-src 'self' http://localhost:8765 'unsafe-eval'; object-src 'self'",
   "permissions": []
 }
